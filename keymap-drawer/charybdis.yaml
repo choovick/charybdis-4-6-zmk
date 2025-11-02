@@ -50,13 +50,13 @@ layers:
   - /
   - RSFT
   - Pointer
+  - RET
   - '&gui_ctrlb'
+  - RCTRL
   - LALT
   - {t: BSPC, h: Raise}
-  - {t: SPACE, h: Symbols}
-  - RCTRL
   - Lower
-  - RET
+  - {t: SPACE, h: Symbols}
   Pointer:
   - '`'
   - F1
@@ -223,9 +223,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Symbols:
@@ -281,10 +281,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   Scroll:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -400,7 +400,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [33, 34, 35]
+- p: [53, 54, 55]
   k: ZMK Studio
 - p: [1, 2]
   k: ESCAPE
